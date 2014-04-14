@@ -33,7 +33,7 @@ module Aviator
 
 
     def url
-      "#{ base_url }/servers/#{ params[:server_id] }/action"
+      "#{ base_url }/servers/#{ params[:server_id] }/os-volume_attachments"
     end
 
   end

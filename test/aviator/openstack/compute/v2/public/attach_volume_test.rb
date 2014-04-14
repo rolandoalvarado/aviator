@@ -96,7 +96,7 @@ class Aviator::Test
       server_id    = 'testdummyID'
       volume_id    = 'testvolumeID'
       device       = '/dev/vdc'
-      url          = "#{ service_spec[:endpoints][0][:publicURL] }/servers/#{ server_id }/action"
+      url          = "#{ service_spec[:endpoints][0][:publicURL] }/servers/#{ server_id }/os-volume_attachments"
 
       request = create_request do |params|
         params[:server_id]  = server_id

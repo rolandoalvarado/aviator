@@ -5,6 +5,7 @@ $:.unshift File.expand_path('../../lib', __FILE__)
 # Set-up coverage reporting (local and Coveralls.com)
 require 'simplecov'
 require 'coveralls'
+require 'pathname'
 
 SimpleCov.command_name 'MiniTest'
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
